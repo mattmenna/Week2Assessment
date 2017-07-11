@@ -1,0 +1,33 @@
+1.
+     a. array1.put(3,55);
+     b. 5
+     c. 64
+
+2.
+
+double salary = 5.6;
+
+3.
+/* <-----Only count if correct!
+Curly braces are missing for statements after FOR loop but program may still run and if it did run it would print to the console. Can't remember if a FOR loop can omit braces like IF statements can
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+*/
+
+Oh wait it might only print 0 because it was initialized as 0 outside the FOR loop
+
+4.
+Yes because the primitive data types passed into the method are identical for each method and the compiler could not tell from the context if print(3,"Hi") was referring to the first or second method declaration.
+
+5.
+Same kind of thing as question 3. If the FOR loop executes properly it will throw an ArrayIndexOutOfBounds exception that is not caught by the code because the highest index or the array is 6 and the loop goes to 9
+The sum is also not acutually summing it should read "sum +=array1[i];" so at the end of the loop it would have the last element of the array stored to sum if an exception wasn't thrown.
+So I don't think it would run and the Exception would be the thing outputted.
