@@ -31,3 +31,4 @@ Yes because the primitive data types passed into the method are identical for ea
 Same kind of thing as question 3. If the FOR loop executes properly it will throw an ArrayIndexOutOfBounds exception that is not caught by the code because the highest index or the array is 6 and the loop goes to 9
 The sum is also not acutually summing it should read "sum +=array1[i];" so at the end of the loop it would have the last element of the array stored to sum if an exception wasn't thrown.
 So I don't think it would run and the Exception would be the thing outputted.
+
